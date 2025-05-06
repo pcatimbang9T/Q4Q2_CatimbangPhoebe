@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz 2</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<form>
+	<script src="main.js"></script>
+    <div class="container">
+    <div class="mb-3 text-center w-100">
+	<h1>SCORE ANALYZER</h1>
+	</div>
+
+
+	    <div class="grade mb-3"> <!--age-->
+	    	<img src="social studies.jpg" id="image">
+	    	<br>
+	        <label for="inputGrade"><strong>Social Studies</strong></label>
+	        <input type="number" class="form-control" id="ssGrade" placeholder="Grade">
+	    </div>
+
+	    <div class="grade mb-3"> <!--age-->
+	    	<img src="science.jpg" id="image">
+	    	<br>
+	        <label for="inputGrade"><strong>Science</strong></label>
+	        <input type="number" class="form-control" id="sciGrade" placeholder="Grade">
+	    </div>
+
+	    <div class="grade mb-3"> <!--age-->
+	    	<img src="english.jpg" id="image">
+	    	<br>
+	        <label for="inputGrade"><strong>English</strong></label>
+	        <input type="number" class="form-control" id="engGrade" placeholder="Grade">
+	    </div>
+
+	    <button type="button" class="btn btn-success" onclick="checkthescore()">GET RATING
+	    </button>
+
+        <!-- Refresh -->
+        <button type="button" class="btn btn-custom" onclick="window.location.reload()">REFRESH</button>
+    </div>
+
+</container>
+</body>
+</html>
